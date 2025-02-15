@@ -1,0 +1,2 @@
+# Unclosed Paragraph Tag in Dynamically Generated Content
+This repository demonstrates a subtle bug in HTML where an unclosed paragraph tag within dynamically generated content can cause layout issues and validation errors. The bug occurs when JavaScript generates HTML content containing an unclosed `<p>` tag, which is often difficult to detect and debug. This example shows the problematic code, the resulting layout issues, and how to effectively solve this issue by ensuring all HTML tags are correctly closed.
